@@ -36,14 +36,6 @@ wget --recursive --no-parent --no-clobber --directory-prefix=./ https://rutledge
 ```
 Alternatively, an archived version may be accessed at [doi:10.5281/zenodo.14056462](https://zenodo.org/records/14056462)
 
-## Installation
-
-Clone this repository and navigate into the project directory. Install the required Python packages using:
-
-```
-pip install -r requirements.txt
-```
-
 ## Usage
 
 Set the `dir_in` and `dir_out` variables in the script to your desired input and output directories, respectively:
