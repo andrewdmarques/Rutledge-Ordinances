@@ -4,7 +4,7 @@ This repository houses the scripts developed for the codification project of Rut
 ## Project Objectives
 The primary goal of this initiative is to modernize access to municipal legislation, thereby supporting Rutledge Borough in addressing any legislative discrepancies and aligning local laws with those of Delaware County and the State of Pennsylvania. This effort is in collaboration with General Code (eCode360), enhancing the borough’s legal framework for improved governance and public access.
 ## Impact
-The successful implementation of these scripts not only ensures comprehensive legal transparency but also positions Rutledge Borough as a model of digital engagement and legislative accessibility within the community.
+The successful implementation of these scripts ensures comprehensive legal transparency but also makes these ordinances accessible to all residents former, present, and future.
 
 # Script: PDF to Text Converter
 
