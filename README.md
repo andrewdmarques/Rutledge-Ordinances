@@ -56,6 +56,12 @@ python3 pdf2text_v2.04.py
 - Text files for each PDF page, saved in four orientations, in the specified output directory.
 - A CSV log file `processed_files_log.csv` in the output directory, recording each processed PDF's file name and directory location.
 
+## Example 
+
+![Example Image 1](Images/example_original.jpg)
+
+![Example Image 1](Images/example_)angle-180.jpg)
+
 ## Custom Configuration
 
 - Modify `tesseract_cmd` path in the script if Tesseract-OCR is not in your system PATH:
