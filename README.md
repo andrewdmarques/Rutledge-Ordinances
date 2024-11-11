@@ -60,7 +60,7 @@ python3 pdf2text_v2.04.py
 
 ![Example Image 1](Images/example_original.jpg)
 
-![Example Image 1](Images/example_)angle-180.jpg)
+![Example Image 1](Images/example_angle-180.jpg)
 
 ## Custom Configuration
 
