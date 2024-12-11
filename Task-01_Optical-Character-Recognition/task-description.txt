@@ -1,1 +1,5 @@
 PURPOSE: The purpose of this task is to download all contents of the Borough of Rutledge's website and scan all uploaded PDFs for key terms like "Ordinance". This enables us to query for potentially missing ordinances from 2001-2024.
+
+METHOD: Python3 is implemented to read in all PDFs from the Borough of Rutledge website and convert the PDFs to text files that are then queried for terms that can identify important information relating to ordinances. A repository from this search can be downloaded at doi: 10.5281/zenodo.14056462
+
+RESULTS: Scanning the PDF files did not provide any new information. It may be more useful to quiery the existing text files (typically index.html) that have minutes from meetings spanning at least to 2010. 
