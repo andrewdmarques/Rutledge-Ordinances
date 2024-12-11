@@ -1,0 +1,1 @@
+PURPOSE: The purpose of this task is to download all contents of the Borough of Rutledge's website and scan all uploaded PDFs for key terms like "Ordinance". This enables us to query for potentially missing ordinances from 2001-2024.
