@@ -6,7 +6,7 @@ The primary goal of this initiative is to modernize access to municipal legislat
 ## Impact
 The successful implementation of these scripts ensures comprehensive legal transparency but also makes these ordinances accessible to all residents former, present, and future.
 
-# Script: PDF to Text Converter
+# Task-01: Optical Character Recognition to Identify Relevant PDFs
 
 This repository contains a Python script that extracts text from PDF files using Optical Character Recognition (OCR). The script supports processing PDFs stored in a specified input directory and outputs text files for each page in four orientations. Additionally, it generates a CSV log detailing the files processed.
 
