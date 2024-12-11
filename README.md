@@ -62,15 +62,6 @@ python3 pdf2text_v2.04.py
 
 ![Example Image 1](Images/example_angle-180.jpg)
 
-## Custom Configuration
-
-- Modify `tesseract_cmd` path in the script if Tesseract-OCR is not in your system PATH:
-  ```
-  pytesseract.pytesseract.tesseract_cmd = '/path/to/tesseract'
-  ```
-
-- Change the page orientations as needed by modifying the `angle` list in the `extract_text_from_pdf` function.
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
