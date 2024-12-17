@@ -62,7 +62,17 @@ python3 pdf2text_v2.04.py
 
 ![Example Image 1](Images/example_angle-180.jpg)
 
-# Task-02 
+# Task-02
+
+PURPOSE: The purpose of this task is to combine two large PDFs (about 50 pages each) where one is the scan of the even pages and the other is the scan of the odd pages.
+
+DESCRIPTION: A large 100 page double-sided PDF was scanned as odd pages first then another scan of even pages. These pages needed to be combined in an alternating way. t then alternates these pages, starting with the first page of the first PDF (odd pages), followed by the first page of the second PDF (even pages), and continues this pattern for all pages in both PDFs. The result is a new PDF file where the pages are combined in an alternating sequence from both source files.
+
+METHOD: Python3 is used to implement the libary PyPDF2 where the PDFs are read in an iteratively alternated through a for loop to interweave pages together. 
+
+RESULTS: This script was effectively used for ordinance 2022-02.
+
+# Task-03 
 
 PURPOSE: The purpose of this task is to query all occurences of "ordinance" throughout the Borough of Rutledge's website to bridge gaps in ordinances that may not have been located.
 
