@@ -73,7 +73,7 @@ python3 pdf2text_v2.04.py
 
 ![Example Image 1](Images/example_angle-180.jpg)
 
-# Task-02
+# Task-02: PDF Interweaving
 
 ### Purpose:
 The purpose of this task is to combine two large PDFs (about 50 pages each) where one is the scan of the even pages and the other is the scan of the odd pages.
