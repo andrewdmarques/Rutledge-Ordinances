@@ -8,16 +8,27 @@ The successful implementation of these scripts ensures comprehensive legal trans
 
 # Task-01: Optical Character Recognition to Identify Relevant PDFs
 
-This repository contains a Python script that extracts text from PDF files using Optical Character Recognition (OCR). The script supports processing PDFs stored in a specified input directory and outputs text files for each page in four orientations. Additionally, it generates a CSV log detailing the files processed.
+## Summary
 
-## Features
+### Purpose:
+The purpose of this task is to download all contents of the Borough of Rutledge's website and scan all uploaded PDFs for key terms like "Ordinance". This enables us to query for potentially missing ordinances from 2001-2024.
+
+### Method:
+METHOD: Python3 is implemented to read in all PDFs from the Borough of Rutledge website and convert the PDFs to text files that are then queried for terms that can identify important information relating to ordinances. A repository from this search can be downloaded at doi: 10.5281/zenodo.14056462
+
+### Results
+RESULTS: Scanning the PDF files did not provide any new information. It may be more useful to quiery the existing text files (typically index.html) that have minutes from meetings spanning at least to 2010. 
+
+# Detailed notes
+
+### Features
 
 - **Recursive PDF Search:** Automatically locates and processes all PDF files within the specified input directory, including its subdirectories.
 - **Multiple Orientations:** Converts each page of the PDF files into text at 0°, 90°, 180°, and 270° rotations.
 - **Logging:** Outputs a CSV file with the list of processed PDFs along with their original locations.
 - **Progress Reporting:** Displays real-time processing information and summary statistics upon completion.
 
-## Requirements
+### Requirements
 
 - Python 3.6+
 - PyMuPDF
@@ -27,7 +38,7 @@ This repository contains a Python script that extracts text from PDF files using
 
 Ensure that Tesseract-OCR is installed on your system and accessible via the system PATH or configured directly in the script.
 
-## Download Borough Ordinances
+### Download Borough Ordinances
 
 Download all digital files freely accessible online. 
 
@@ -36,7 +47,7 @@ wget --recursive --no-parent --no-clobber --directory-prefix=./ https://rutledge
 ```
 Alternatively, an archived version may be accessed at [doi:10.5281/zenodo.14056462](https://zenodo.org/records/14056462)
 
-## Usage
+### Usage
 
 Set the `dir_in` and `dir_out` variables in the script to your desired input and output directories, respectively:
 
@@ -51,12 +62,12 @@ Run the script with:
 python3 pdf2text_v2.04.py
 ```
 
-## Output
+### Output
 
 - Text files for each PDF page, saved in four orientations, in the specified output directory.
 - A CSV log file `processed_files_log.csv` in the output directory, recording each processed PDF's file name and directory location.
 
-## Example 
+### Example 
 
 ![Example Image 1](Images/example_original.jpg)
 
