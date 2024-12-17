@@ -87,7 +87,7 @@ Python3 is used to implement the libary PyPDF2 where the PDFs are read in an ite
 ### Results:
 This script was effectively used for ordinance 2022-02.
 
-# Task-03 
+# Task-03: Web Scraping 
 
 ### Purpose:
 The purpose of this task is to query all occurences of "ordinance" throughout the Borough of Rutledge's website to bridge gaps in ordinances that may not have been located.
