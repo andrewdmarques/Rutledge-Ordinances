@@ -4,4 +4,4 @@ DESCRIPTION: A large 100 page double-sided PDF was scanned as odd pages first th
 
 METHOD: Python3 is used to implement the libary PyPDF2 where the PDFs are read in an iteratively alternated through a for loop to interweave pages together. 
 
-RESULTS: This script was effectively ussed for ordinance 2022-02.
+RESULTS: This script was effectively used for ordinance 2022-02.
