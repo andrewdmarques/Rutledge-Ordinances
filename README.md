@@ -62,6 +62,16 @@ python3 pdf2text_v2.04.py
 
 ![Example Image 1](Images/example_angle-180.jpg)
 
+# Task-02 
+
+PURPOSE: The purpose of this task is to query all occurences of "ordinance" throughout the Borough of Rutledge's website to bridge gaps in ordinances that may not have been located.
+
+DESCRIPTION: As of 12/10/2024, there are 2,647 files on the Borough of Rutledge's website (https://www.rutledgepa.org/). PDF and image files were processed in task 1. This task focuses on any files that are text-baed files (.txt, .html, .json, .docx).
+
+METHOD: R is used to scan a downloaded environment of all website files to determine if files are text type files and open each file to query for keywords like "Ordinance". 
+
+RESULTS: This script was effictive to find more than 10 oridnances that could not be located in other locations. Most query hits returned meeting minutes for the day that ordinances were passed and a short summary of what was passed.
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
