@@ -14,10 +14,10 @@ The successful implementation of these scripts ensures comprehensive legal trans
 The purpose of this task is to download all contents of the Borough of Rutledge's website and scan all uploaded PDFs for key terms like "Ordinance". This enables us to query for potentially missing ordinances from 2001-2024.
 
 ### Method:
-METHOD: Python3 is implemented to read in all PDFs from the Borough of Rutledge website and convert the PDFs to text files that are then queried for terms that can identify important information relating to ordinances. A repository from this search can be downloaded at doi: 10.5281/zenodo.14056462
+Python3 is implemented to read in all PDFs from the Borough of Rutledge website and convert the PDFs to text files that are then queried for terms that can identify important information relating to ordinances. A repository from this search can be downloaded at doi: 10.5281/zenodo.14056462
 
 ### Results
-RESULTS: Scanning the PDF files did not provide any new information. It may be more useful to quiery the existing text files (typically index.html) that have minutes from meetings spanning at least to 2010. 
+Scanning the PDF files did not provide any new information. It may be more useful to quiery the existing text files (typically index.html) that have minutes from meetings spanning at least to 2010. 
 
 ## Detailed notes
 
@@ -82,7 +82,7 @@ The purpose of this task is to combine two large PDFs (about 50 pages each) wher
 A large 100 page double-sided PDF was scanned as odd pages first then another scan of even pages. These pages needed to be combined in an alternating way. t then alternates these pages, starting with the first page of the first PDF (odd pages), followed by the first page of the second PDF (even pages), and continues this pattern for all pages in both PDFs. The result is a new PDF file where the pages are combined in an alternating sequence from both source files.
 
 ### Method:
-METHOD: Python3 is used to implement the libary PyPDF2 where the PDFs are read in an iteratively alternated through a for loop to interweave pages together. 
+Python3 is used to implement the libary PyPDF2 where the PDFs are read in an iteratively alternated through a for loop to interweave pages together. 
 
 ### Results:
 This script was effectively used for ordinance 2022-02.
